@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Mapping</title>
+    </head>
+    <body>
+        <p>Multiply elements in array</p>
+        <p id="product_value"></p>
+        <script>
+            var num=[81,61,8,19,25,5,89,12];
+            function mult(n){
+                return n*5;
+            }
+
+            var newarr=num.map(mult);
+            document.getElementById("product_value").innerHTML=newarr;
+        </script>
+    </body>
+</html>
